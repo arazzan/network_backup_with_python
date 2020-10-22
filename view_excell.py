@@ -34,17 +34,15 @@ class ExcelTemplate:
             y += 1
         return title_dict
 
-    def xlFilter(self):
+    def xl_filter(self):
         device_list = []
         title_row_dict = self.Title_row_dict()
         for x in title_row_dict.items():
             print(x)
-        print("                                          ") # Empty Line
         title_row_selected = int(input("Select a Value: "))
         unique_value_dict = self.unique_value_dict(title_row_selected)
         for y in unique_value_dict.items():
             print(y)
-        print("                                          ")  # Empty Line
         value_selected = int(input("Select a Value: "))
         dict_value = unique_value_dict[value_selected]
 
@@ -63,11 +61,11 @@ class ExcelTemplate:
         return device_list
 
 
-# file1 = ExcelTemplate("MyDevicesUploadTemplate.xls", "MyDevicesUploadTemplate")
-# readable_table = prettytable.PrettyTable(file1.Title_row_dict().values())
-# filtered_list = file1.xlFilter()
-# # print(filtered_list)
-# for x in filtered_list:
-#     readable_table.add_row(x)
-# print(readable_table)
+file1 = ExcelTemplate("MyDevicesUploadTemplate.xls", "MyDevicesUploadTemplate")
+readable_table = prettytable.PrettyTable(file1.Title_row_dict().values())
+filtered_list = file1.xl_filter()
+print(filtered_list)
+for x in filtered_list:
+    readable_table.add_row(x)
+print(readable_table)
 
