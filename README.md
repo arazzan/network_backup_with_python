@@ -36,10 +36,7 @@
                       Device Access related loggs will be stored in Base directory (File Name Ex: Logging_22-October-2020_120604)
            
                     
-                      
 
 
-
-          
  
       
