@@ -1,6 +1,6 @@
 # network_backup_with_python
 
-1. modifiy the MyDeviceUploadTemplate.xls file with device inventory
+Modifiy the MyDeviceUploadTemplate.xls file with device inventory
 2. Run the application 
            > py Backup_Devices.py
            
