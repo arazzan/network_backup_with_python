@@ -1,5 +1,8 @@
 # network_backup_with_python
 
+Screenshots and Deatils: https://e-booksnetworking.blogspot.com/2020/10/back-up-your-network-devices-with-excel.html
+                         https://e-booksnetworking.blogspot.com/2020/10/automate-your-network-device-backup.html
+
 # Full Backup at once. (Same Authentication for all the devices)
            1. Modifiy the MyDeviceUploadTemplate.xls file with device inventory
            2. Run the application 
