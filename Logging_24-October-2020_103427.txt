@@ -1,0 +1,7 @@
+
+24-October-2020_103427: Authentication Error AS-FIRST-FLR-21 10.1.2.21
+24-October-2020_103427: something went wrong accessing AS-SEC-FLR-31 10.4.2.31 
+ [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+24-October-2020_103427: Authentication Error AS-FIRST-FLR-41 10.1.2.41
+24-October-2020_103427: something went wrong accessing AS-SEC-FLR-51 10.4.2.51 
+ [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
