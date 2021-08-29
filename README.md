@@ -1,6 +1,6 @@
 # network_backup_with_python
 
-Command line tool to backup network devices - Read data from a excelsheet and backup all the devices or filtered from the sheet.
+Command line tool to backup network devices - Read data from a excelsheet and "Backup all the devices" or "Filtered from the sheet and backup".
 
 Screenshots and Deatils: 
 
