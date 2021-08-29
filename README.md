@@ -9,7 +9,9 @@ https://e-booksnetworking.blogspot.com/2020/10/back-up-your-network-devices-with
 https://e-booksnetworking.blogspot.com/2020/10/automate-your-network-device-backup.html
 
 Modifiy the MyDeviceUploadTemplate.xls file with device inventory
+
 2. Run the application 
+
            > py Backup_Devices.py
            
            it will promt for device SSH/TELNET authentication details (Username: , Password:)
